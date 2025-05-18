@@ -36,15 +36,15 @@ function GameScreen({ onGameEnd }) {
   };
 
   return (
-    <div className="container">
+    <div className="container"  onClick={handleCount}>
       <h1>腕立てカウンター</h1>
-          <div id="count" onTouchStart={handleCount}>{count}</div>
+          <div id="count">{count}</div>
           <p id="reminder">残り時間 <span id="timer">{timeLeft}</span>秒</p>
           <button id="countBtn"></button>
-          <button id="startBtn" onClick={handleStart}>スタート</button>
-          <p id="consume">消費カロリー <span id="calories">{calories.toFixed(2)}</span>kcal</p>
+          <button id="startBtn" onClick={handleStart} disabled={started}>スタート</button>
+          <p id="consume">消費カロリー<span id="calories">{calories.toFixed(2)}</span>kcal</p>
     </div>
   );
 }
-
+// onTouchStart
 export default GameScreen;

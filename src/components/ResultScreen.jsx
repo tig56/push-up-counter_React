@@ -33,10 +33,7 @@ function ResultScreen({ records, setRecords, score, onBack }) {
         ))}
       </ul>
       <button id="backBtn" onClick={onBack}>戻る</button>
-      <Confetti 
-      width={1500}
-      height={1500}
-      />
+      <Confetti />
     </div>
   );
 }
