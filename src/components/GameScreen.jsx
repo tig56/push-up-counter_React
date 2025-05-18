@@ -36,7 +36,7 @@ function GameScreen({ onGameEnd }) {
   };
 
   return (
-    <div className="container"  onClick={handleCount}>
+    <div className="container"  onTouchStart={handleCount}>
       <h1>腕立てカウンター</h1>
           <div id="count">{count}</div>
           <p id="reminder">残り時間 <span id="timer">{timeLeft}</span>秒</p>
@@ -46,5 +46,5 @@ function GameScreen({ onGameEnd }) {
     </div>
   );
 }
-// onTouchStart
+
 export default GameScreen;
