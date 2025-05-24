@@ -1,9 +1,9 @@
 {
-  "name": "pushup-counter",
+  "name": "push-up-counter-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://tig56.github.io/pushup-counter",
+  "homepage": "https://tig56.github.io/push-up-counter_React",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
