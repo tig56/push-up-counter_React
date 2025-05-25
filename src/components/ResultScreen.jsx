@@ -3,7 +3,7 @@ import Confetti from 'react-confetti';
 
 function ResultScreen({ records, setRecords, score, onBack }) {
   const bestScore = Math.max(...records.map(r => r.score));
-  const resultSound = useRef(new Audio('/メニューを開く4.mp3'));
+  const resultSound = useRef(new Audio('/result.mp3'));
 
   useEffect(() => {
     resultSound.current.play();

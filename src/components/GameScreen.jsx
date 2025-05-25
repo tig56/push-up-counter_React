@@ -8,8 +8,8 @@ function GameScreen({ onGameEnd }) {
   const timerRef = useRef(null);
   const touchHandled = useRef(false);
 
-  const startSound = useRef(new Audio('/メニューを開く2.mp3'));
-  const countSound = useRef(new Audio('/決定ボタンを押す26.mp3'));
+  const startSound = useRef(new Audio('/start.mp3'));
+  const countSound = useRef(new Audio('/count.mp3'));
 
   useEffect(() => {
     if (started && timeLeft > 0) {
@@ -44,7 +44,7 @@ function GameScreen({ onGameEnd }) {
 
   const handleClick = () => {
     if (touchHandled.current) {
-      touchHandled.current = false; // フラグリセット
+      touchHandled.current = false; 
       return;
     }
     handleCount();
