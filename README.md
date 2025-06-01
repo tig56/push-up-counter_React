@@ -17,7 +17,8 @@ React + JavaScriptで作成した、簡単操作の「腕立て伏せカウン�
 - 音声フィードバック（スタート音・カウント音）
 
 ## スクリーンショット
-
+![image](https://github.com/user-attachments/assets/46bd74f4-16d1-4c71-ac6d-34a3f1dd4620)
+![image](https://github.com/user-attachments/assets/62392cac-2e10-43ca-9b41-6362481d7cfb)
 
 ---
 
@@ -27,3 +28,4 @@ React + JavaScriptで作成した、簡単操作の「腕立て伏せカウン�
 - HTML/CSS（レスポンシブ対応）
 
 ##　リンク先
+ https://tig56.github.io/push-up-counter_React/
